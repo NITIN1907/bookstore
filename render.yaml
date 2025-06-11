@@ -12,7 +12,7 @@ services:
       - key: DB_USER
         value: book_zm4y_user
       - key: DB_PASSWORD
-        value: root
+        value: wWpbruwuXbCpCCox6uU5D8u6lWxIw0Fb
       - key: DB_NAME
         value: book_zm4y
       - key: DB_PORT
