@@ -1,7 +1,7 @@
 #!/bin/sh
 
 # Default values if env vars not provided
-: "${DB_HOST:=host.docker.internal}"
+: "${DB_HOST:=dpg-d14pkvmmcj7s73fekpm0-a}"
 : "${DB_PORT:=5432}"
 
 until nc -z "$DB_HOST" "$DB_PORT"; do
