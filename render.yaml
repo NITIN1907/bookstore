@@ -1,0 +1,17 @@
+services:
+  - type: web
+    name: backend_development_go
+    env: docker
+    plan: free
+    dockerfilePath: ./Dockerfile
+    envVars:
+      - key: PORT
+        value: 8080
+      - key: DB_HOST
+        value: localhost
+      - key: DB_USER
+        value: postgres
+      - key: DB_PASSWORD
+        value: root
+      - key: DB_NAME
+        value: bookstore
