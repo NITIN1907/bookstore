@@ -6,7 +6,7 @@ services:
     dockerfilePath: ./Dockerfile
     envVars:
       - key: PORT
-        value: 8080
+        value: "8080"
       - key: DB_HOST
         value: host.docker.internal
       - key: DB_USER
@@ -15,3 +15,9 @@ services:
         value: root
       - key: DB_NAME
         value: bookstore
+      - key: DB_PORT
+        value: "5432"
+      - key: DB_SSLMODE
+        value: disable
+      - key: JWT_SECRET
+        value: supersecure
